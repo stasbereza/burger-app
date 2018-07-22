@@ -1,6 +1,6 @@
 // #Core
 import React, { Component } from 'react';
-import { Route, Switch, Link } from 'react-router-dom';
+import { Route, Switch, Link, Redirect } from 'react-router-dom';
 // #Components
 import Container from 'components/Container';
 import Header from 'components/Header';
@@ -9,8 +9,6 @@ import CreateBurgerForm from 'components/CreateBurgerForm';
 import BurgerList from 'components/BurgerList';
 // #Instruments
 import v4 from 'uuid/v4';
-// #shared
-import PageNotFound from '../shared/PageNotFound';
 // #pages
 import BurgerListContainer from '../pages/BurgerListContainer';
 import StuffingListContainer from '../pages/StuffingListContainer';
@@ -62,7 +60,7 @@ export default class App extends Component {
             <Route path="/burgers" component={BurgerListContainer} />
             <Route path="/stuffing" component={StuffingListContainer} />
             <Route path="/toppings" component={ToppingsListContainer} />
-            <Route component={PageNotFound} />
+            <Redirect to="/" />
           </Switch>
         </Container>
       </div>
