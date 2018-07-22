@@ -33,5 +33,5 @@
     "eslint-plugin-react": "^7.10.0",
     "prettier": "^1.13.7"
   },
-  "homepage":
+  "homepage": "https://stasbereza.github.io/burger-app/build/"
 }
