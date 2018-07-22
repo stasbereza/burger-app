@@ -1,0 +1,17 @@
+.Home {
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 50%);
+}
+
+.Home__greeting {
+  color: #795548;
+  text-align: center;
+}
+
+.Home__buttons {
+  display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+  justify-content: space-between;
+}

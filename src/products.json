@@ -1,0 +1,166 @@
+{
+  "burgers": [
+    {
+      "id": "1",
+      "title": "Burger \"Arkansas\"",
+      "picture": "https://theburger.ua/wp-content/uploads/Arkansas-min-1.jpg",
+      "size": "large",
+      "stuffing": ["marbled beef", "gouda cheese", "tomatoes", "pickled gherkins", "red onions"],
+      "toppings": ["BBQ sauce"],
+      "desc": "A large and juicy marbled-beef burger will tinger your senses! Served with fresh vegetables and our special BBQ sauce.",
+      "price": 280
+    },
+    {
+      "id": "2",
+      "title": "Burger \"New York\"",
+      "picture": "https://theburger.ua/wp-content/uploads/New-York-min.jpg",
+      "size": "large",
+      "stuffing": ["beef", "cheddar cheese", "tomatoes", "red onions"],
+      "toppings": ["BBQ sauce", "mayonnaise"],
+      "desc": "A big burger from the Big Apple. Served with Cheddar cheese, fresh Iceberg salad and vegetables. Topped up with our specialty BBQ sauce.",
+      "price": 250
+    },
+    {
+    "id": "3",
+    "title": "Burger \"Kentuky\"",
+    "picture": "https://theburger.ua/wp-content/uploads/Kentucky-min.jpg",
+    "size": "small",
+    "stuffing": ["chicken fillet", "mozzarella cheese", "tomatoes"],
+    "toppings": ["pesto sauce"],
+    "desc": "Our specialty classic burger. A tender charcoal-barbecue grilled chicken fillet, served with Mozzarella cheese, fresh tomatoes and our special pesto sauce.",
+    "price": 200
+    },
+    {
+    "id": "4",
+    "title": "Burger \"Indiana\"",
+    "picture": "https://theburger.ua/wp-content/uploads/Indiana-min.jpg",
+    "size": "small",
+    "stuffing": ["turkey cutlet", "cheddar cheese", "sliced caramelized apple"],
+    "toppings": ["caesar sauce"],
+    "desc": "A juicy turkey burger served with Cheddar cheese, caramelized apples, topped up with Caesar sauce delectably sweet.",
+    "price": 205
+    },
+    {
+    "id": "5",
+    "title": "Burger \"Carolina\"",
+    "picture": "https://theburger.ua/wp-content/uploads/Carolina-min.jpg",
+    "size": "small",
+    "stuffing": ["duck fillet", "sliced caramelized apple"],
+    "toppings": ["dorblu sauce", "berry sauce"],
+    "desc": "The burger chief's specialty burger for gourmets. Sliced duck fillet with our brand barry sauce will not leave you indifferent.",
+    "price": 210
+    },
+    {
+    "id": "6",
+    "title": "Burger \"Boston\"",
+    "picture": "https://theburger.ua/wp-content/uploads/Boston-min.jpg",
+    "size": "large",
+    "stuffing": ["ostrich fillet", "cheese viola"],
+    "toppings": ["salsa sauce", "secret sauce"],
+    "desc": "The main ingredient of our chief's specialty burger is ostrige meet, which is low in fat and cholesterol by nature. Cooking the ostrige meat to medium ensures the authentic quality taste.",
+    "price": 300
+    }
+  ],
+  "stuffing": [
+    {
+      "cheese": [
+        {
+          "id": "1",
+          "picture": "https://www.murrayscheese.com/site/images/items/20123900000.0.jpg?resizeid=3&resizeh=600&resizew=600",
+          "name": "gouda cheese",
+          "price": 30
+        },
+        {
+          "id": "2",
+          "picture": "https://www.murrayscheese.com/site/images/items/20134600000.0.jpg?resizeid=3&resizeh=600&resizew=600",
+          "name": "cheddar cheese",
+          "price": 30
+        },
+        {
+          "id": "3",
+          "picture": "https://cdn3.volusion.com/gkqor.tapcz/v/vspfiles/photos/MZ4-2.jpg?1495663121",
+          "name": "mozzarella cheese",
+          "price": 25
+        },
+        {
+          "id": "4",
+          "picture": "https://cdn.shopify.com/s/files/1/0978/2590/products/Emmental_grande.jpg?v=1442915887",
+          "name": "emmental cheese",
+          "price": 25
+        }
+      ]
+    },
+    {
+      "vegetables": [
+        {
+          "id": "1",
+          "picture": "https://cdn.mr-fothergills.co.uk/product-images/op/z/15310z.jpg",
+          "name": "tomatoes",
+          "price": 15
+        },
+        {
+          "id": "2",
+          "picture": "https://edmondscooking.co.nz/assets/recipes/bbd30bd89d/Sweet-pickled-gherkins.jpg",
+          "name": "pickled gherkins",
+          "price": 15
+        },
+        {
+          "id": "3",
+          "picture": "https://cdn.shopify.com/s/files/1/1698/1675/products/Onion_Red_Burgandy_600x.jpg?v=1519664812",
+          "name": "red onion",
+          "price": 10
+        },
+        {
+          "id": "4",
+          "picture": "https://lifemadesimplebakes.com/wp-content/uploads/2015/11/Stovetop-Cinnamon-Apples.jpg",
+          "name": "sliced caramelized apple",
+          "price": 20
+        },
+        {
+          "id": "5",
+          "picture": "http://www.brooksidenursery.co.uk/user/products/Iceberg%20Lettuce%20Plants%20Lakeland%20Tray%20of%2020%20Plug%20Plants.jpg",
+          "name": "iceberg lettuce",
+          "price": 15
+        }
+      ]
+    }
+  ],
+  "toppings": [
+    {
+      "id": "1",
+      "picture": "https://3k0j0647ji3n23p72y2u5n65-wpengine.netdna-ssl.com/wp-content/uploads/2014/04/Smokey-Mesquite-BBQ-Sauce-3.jpg",
+      "name": "BBQ sauce",
+      "price": 25
+    },
+    {
+      "id": "2",
+      "picture": "https://i1.wp.com/www.stylepresso.com/wp-content/uploads/2014/09/Mayonnaise.jpg",
+      "name": "mayonnaise",
+      "price": 15
+    },
+    {
+      "id": "3",
+      "picture": "https://www.boldsky.com/img/2017/08/03-1501780370-ket1.jpg",
+      "name": "ketchup",
+      "price": 15
+    },
+    {
+      "id": "4",
+      "picture": "https://www.dunlopbrothers.ca/wp-content/uploads/2015/10/pesto4.jpg",
+      "name": "pesto sauce",
+      "price": 25
+    },
+    {
+      "id": "5",
+      "picture": "https://3k0j0647ji3n23p72y2u5n65-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/Homemade-Thousand-Island-Salad-Dressing-overhead.jpg",
+      "name": "caesar sauce",
+      "price": 25
+    },
+    {
+      "id": "6",
+      "picture": "http://0104.nccdn.net/1_5/2e9/2a8/2f7/raspberry_sauce.png.jpeg",
+      "name": "berry sauce",
+      "price": 25
+    }
+  ]
+}

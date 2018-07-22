@@ -1,0 +1,112 @@
+{
+  "bun": [
+    {
+      "size": "small",
+      "price": 60
+    },
+    {
+      "size": "large",
+      "price": 80
+    }
+  ],
+  "stuffing": [
+    {
+      "meat": [
+        {
+          "name": "marbled beef",
+          "price": 100
+        },
+        {
+          "name": "beef",
+          "price": 80
+        },
+        {
+          "name": "chicken fillet",
+          "price": 50
+        },
+        {
+          "name": "turkey cutlet",
+          "price": 60
+        },
+        {
+          "name": "duck fillet",
+          "price": 70
+        },
+        {
+          "name": "ostrich fillet",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "cheese": [
+        {
+          "name": "gouda cheese",
+          "price": 30
+        },
+        {
+          "name": "cheddar cheese",
+          "price": 30
+        },
+        {
+          "name": "mozzarella cheese",
+          "price": 25
+        },
+        {
+          "name": "cheese viola",
+          "price": 25
+        }
+      ]
+    },
+    {
+      "vegetables": [
+        {
+          "name": "tomatoes",
+          "price": 15
+        },
+        {
+          "name": "pickled gherkins",
+          "price": 15
+        },
+        {
+          "name": "red onions",
+          "price": 10
+        },
+        {
+          "name": "sliced caramelized apple",
+          "price": 20
+        }
+      ]
+    }
+  ],
+  "toppings": [
+    {
+      "name": "BBQ sauce",
+      "price": 25
+    },
+    {
+      "name": "mayonnaise",
+      "price": 15
+    },
+    {
+      "name": "ketchup",
+      "price": 15
+    },
+    {
+      "name": "pesto sauce",
+      "price": 25
+    },
+    {
+      "name": "caesar sauce",
+      "price": 25
+    },
+    {
+      "name": "dorblu sauce",
+      "price": 25
+    },
+    {
+      "name": "berry sauce",
+      "price": 25
+    }
+  ]
+}
